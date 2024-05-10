@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgileMaintence.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b63c80b6bd924efc7e56cc8fda5e16457bd894d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e701541ea23cd4feb2af3db12efc770cdc5bbb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgileMaintence.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgileMaintence.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

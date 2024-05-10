@@ -4,8 +4,6 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileMaintence", "AgileMaintence\AgileMaintence.csproj", "{8A5DFB26-9FB9-4949-95EF-69403480D8E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAgileMaintance", "ApiAgileMaintance\ApiAgileMaintance.csproj", "{92A7B0C3-A3E6-4F86-8ADF-71332F039DE2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileMaintence.Domain", "AgileMaintence.Domain\AgileMaintence.Domain.csproj", "{F374A019-8A86-4445-9BB0-DC83DFD2C6D0}"
 EndProject
 Global
@@ -18,10 +16,6 @@ Global
 		{8A5DFB26-9FB9-4949-95EF-69403480D8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5DFB26-9FB9-4949-95EF-69403480D8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5DFB26-9FB9-4949-95EF-69403480D8E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92A7B0C3-A3E6-4F86-8ADF-71332F039DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92A7B0C3-A3E6-4F86-8ADF-71332F039DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92A7B0C3-A3E6-4F86-8ADF-71332F039DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92A7B0C3-A3E6-4F86-8ADF-71332F039DE2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F374A019-8A86-4445-9BB0-DC83DFD2C6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F374A019-8A86-4445-9BB0-DC83DFD2C6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F374A019-8A86-4445-9BB0-DC83DFD2C6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU

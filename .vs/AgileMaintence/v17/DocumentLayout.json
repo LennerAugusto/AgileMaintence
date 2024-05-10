@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\components\\headers\\headertitlebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\components\\headers\\headertitlebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,19 +66,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HeaderTitleBar.razor",
-              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Components\\Headers\\HeaderTitleBar.razor",
-              "RelativeDocumentMoniker": "AgileMaintence\\Components\\Headers\\HeaderTitleBar.razor",
-              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Components\\Headers\\HeaderTitleBar.razor",
-              "RelativeToolTip": "AgileMaintence\\Components\\Headers\\HeaderTitleBar.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T17:31:56.173Z",
-              "EditorCaption": ""
             }
           ]
         },
