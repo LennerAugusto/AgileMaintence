@@ -1,0 +1,13 @@
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\bin\Debug\net8.0\AgileMaintence.Domain.deps.json
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\bin\Debug\net8.0\AgileMaintence.Domain.dll
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\bin\Debug\net8.0\AgileMaintence.Domain.pdb
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\AgileMaintence.Domain.csproj.AssemblyReference.cache
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\AgileMaintence.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\AgileMaintence.Domain.AssemblyInfoInputs.cache
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\AgileMaintence.Domain.AssemblyInfo.cs
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\AgileMaintence.Domain.csproj.CoreCompileInputs.cache
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\AgileMaintence.Domain.sourcelink.json
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\AgileMaintence.Domain.dll
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\refint\AgileMaintence.Domain.dll
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\AgileMaintence.Domain.pdb
+C:\Workspace\PersonalProjects\AgileMaintence\AgileMaintence.Domain\obj\Debug\net8.0\ref\AgileMaintence.Domain.dll

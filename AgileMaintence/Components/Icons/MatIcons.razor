@@ -1,0 +1,11 @@
+﻿<span class="material-icons-outlined align-middle" style="font-size:@($"{FontSize}px");">
+    @Icon
+</span>
+
+@code {
+    [Parameter, EditorRequired]
+    public string Icon { get; set; }
+
+    [Parameter]
+    public int FontSize { get; set; } = 16;
+}

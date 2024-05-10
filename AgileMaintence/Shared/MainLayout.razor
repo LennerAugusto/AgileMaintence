@@ -1,4 +1,5 @@
-﻿@inherits LayoutComponentBase
+﻿@using AgileMaintence.Domain.DTOs
+@inherits LayoutComponentBase
 
 <PageTitle>AgileMaintence</PageTitle>
 
@@ -17,3 +18,11 @@
         </article>
     </main>
 </div>
+
+@code {
+    protected RenderFragment Header { get; set; }
+    protected RenderFragment Footer { get; set; }
+    protected RenderFragment Nav { get; set; }
+
+    protected List<LinkItemsDTO> Links { get; set; }
+}

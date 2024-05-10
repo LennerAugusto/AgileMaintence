@@ -1,0 +1,21 @@
+﻿<div class="form-check form-switch gl-switch w-fit">
+    <input class="form-check-input" checked=@IsDefaultChecked @onchange=@((e) => ChangeChecked(e.Value.ToString())) type="checkbox" id=@("flexSwitch" + Id)>
+    <label class="form-check-label ps-3 text-m text-semibold" for=@("flexSwitch" + Id)>@Label</label>
+</div>
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+    [Parameter]
+    public string Label { get; set; }
+    [Parameter]
+    public bool IsDefaultChecked { get; set; }
+    [Parameter]
+    public EventCallback<bool> OnChangeChecked { get; set; }
+
+    public async Task ChangeChecked(string val)
+    {
+        IsDefaultChecked = val == "True";
+        await OnChangeChecked.InvokeAsync(IsDefaultChecked);
+    }
+}

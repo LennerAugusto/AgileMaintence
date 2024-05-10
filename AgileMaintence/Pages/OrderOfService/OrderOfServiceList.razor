@@ -1,0 +1,88 @@
+﻿@page "/order-of-service"
+
+@using AgileMaintence.Domain.DTOs.ClientDTO
+@using AgileMaintence.Domain.DTOs.OrderOfServiceDTO
+
+@inject NavigationManager _nav
+
+<AgileMaintence.Components.Headers.HeaderTitleBar Text="Ordens de Serviço" TextButton="Abrir nova ordem" Action="CreateOrderOfService" />
+
+<div class="agile-table-container">
+    <table class="agile-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome do Cliente</th>
+                <th>Veículo</th>
+                <th>Placa</th>
+                <th>Resumo do defeito</th>
+                <th>Data de início</th>
+                <th>Data de entrega</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.ClientName</td>
+                    <td>@item.Vehicle</td>
+                    <td>@item.Plate</td>
+                    <td>@item.ProblemSumary</td>
+                    <td>@item.StartDate</td>
+                    <td>@item.EndDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    public List<OrderOfServiceDTO> Model { get; set; }
+
+
+    protected override void OnInitialized()
+    {
+        Model = GetAllClients();
+
+        base.OnInitialized();
+    }
+
+    public List<OrderOfServiceDTO> GetAllClients()
+    {
+        var clients = new List<OrderOfServiceDTO>
+            {
+                new OrderOfServiceDTO { Id = 1, ClientName = "João", Vehicle = "Voyage", Plate = "AYF1241", ProblemSumary = "Resumo do defeito", StartDate = "09/05/2024", EndDate = "10/05/2024" },
+                new OrderOfServiceDTO { Id = 2, ClientName = "Maria", Vehicle = "Gol" ,  Plate = "AYF1241", ProblemSumary = "Resumo do defeito", StartDate = "09/05/2024", EndDate = "10/05/2024" },
+                new OrderOfServiceDTO { Id = 3, ClientName = "José", Vehicle = "Prisma", Plate = "AYF1241", ProblemSumary = "Resumo do defeito", StartDate = "09/05/2024", EndDate = "10/05/2024"  }
+        };
+        return clients;
+    }
+
+    private async Task CreateOrderOfService()
+    {
+        _nav.NavigateTo(($"/order-of-service/create"));
+
+        @*INTEGRAÇÃO COM API PARA CRIAR NOVA EMPRESA*@
+        // DisabledCreateEnterprise = true;
+        // await InvokeAsync(StateHasChanged);
+        // await Task.Delay(500);
+        // await _exe.Execute(async () =>
+        // {
+        //     var url = UrlApi + "enterprises/create";
+        //     var result = await _http.Post<dynamic, ResponseDTO<string>>(
+        //     url, new
+        //     {
+        //         constructionCompanyId = _state.GetCurrentConstruction(),
+        //         status = RegistrationStatusType.Incomplete
+        //     });
+
+        //     if (result != null)
+        //     {
+        //         _nav.NavigateTo($"/dashboard/enterprises/create/{result.Data}");
+        //     }
+        // });
+        // DisabledCreateEnterprise = false;
+        // await InvokeAsync(StateHasChanged);
+    }
+}

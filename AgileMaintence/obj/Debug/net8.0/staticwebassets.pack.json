@@ -53,8 +53,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\table.css",
+      "PackagePath": "staticwebassets\\css\\table.css"
+    },
+    {
       "Id": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AgileMaintence.Microsoft.AspNetCore.StaticWebAssets.props",

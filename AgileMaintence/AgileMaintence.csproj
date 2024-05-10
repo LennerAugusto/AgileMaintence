@@ -4,4 +4,10 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgileMaintence.Domain\AgileMaintence.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Components\Tables\" />
+  </ItemGroup>
 </Project>

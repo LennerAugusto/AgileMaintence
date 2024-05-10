@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiAgileMaintance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b63c80b6bd924efc7e56cc8fda5e16457bd894d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiAgileMaintance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiAgileMaintance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

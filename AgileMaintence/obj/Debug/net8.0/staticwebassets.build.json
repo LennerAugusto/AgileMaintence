@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5gTg63JLqHvXB1aDZljEFVnA50TL1leaQx7D35U8V2I=",
+  "Hash": "b90CJIEFSXMJHtxH724+qBa5kSSSMFQ8+QO+mh8APd4=",
   "Source": "AgileMaintence",
   "BasePath": "_content/AgileMaintence",
   "Mode": "Default",
@@ -283,6 +283,25 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\table.css",
+      "SourceId": "AgileMaintence",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\",
+      "BasePath": "_content/AgileMaintence",
+      "RelativePath": "css/table.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\table.css"
+    },
+    {
       "Identity": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\favicon.ico",
       "SourceId": "AgileMaintence",
       "SourceType": "Discovered",
@@ -300,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\index.html",
+      "SourceId": "AgileMaintence",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\",
+      "BasePath": "_content/AgileMaintence",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
     }
   ]
 }

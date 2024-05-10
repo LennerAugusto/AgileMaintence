@@ -22,16 +22,40 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Components/Headers/HeaderTitleBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZWFkZXJzXEhlYWRlclRpdGxlQmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Components/Icons/MatIcons.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uc1xNYXRJY29ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Components/Switches/Switch.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTd2l0Y2hlc1xTd2l0Y2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/Client/ClienteCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XENsaWVudGVDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/Client/ClientListActive.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XENsaWVudExpc3RBY3RpdmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/Client/ClientListInactive.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XENsaWVudExpc3RJbmFjdGl2ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/OrderOfService/OrderOfServiceCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJPZlNlcnZpY2VcT3JkZXJPZlNlcnZpY2VDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/OrderOfService/OrderOfServiceList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJPZlNlcnZpY2VcT3JkZXJPZlNlcnZpY2VMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Shared/SurveyPrompt.razor]
@@ -42,13 +66,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Shared/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dFxOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-s2n273d96x
+
 [C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9wgzzoheyi
-
-[C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ub726qa255
 
 [C:/Workspace/PersonalProjects/AgileMaintence/AgileMaintence/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s

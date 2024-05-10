@@ -9,7 +9,7 @@ main[b-9wgzzoheyi] {
 }
 
 .sidebar[b-9wgzzoheyi] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: radial-gradient(circle at 68.3% -18.3%, #4ee6ff 0, #108ff8 50%, #00417d 100%);
 }
 
 .top-row[b-9wgzzoheyi] {

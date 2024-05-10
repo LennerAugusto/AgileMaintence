@@ -1,0 +1,69 @@
+﻿@using AgileMaintence.Domain.Constants
+@using AgileMaintence.Components.Icons
+@using AgileMaintence.Domain.DTOs
+@using Microsoft.AspNetCore.Components
+
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Agile Maintence</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+ <div class="row align-items-center my-4">
+        <div class="col-12 m-auto">
+            <div class="rounded-circle m-auto" style="width: 50px; height: 50px; border: 2px solid #D9D9D9;">
+                <img class="rounded-circle" src="https://picsum.photos/200/200" alt="Imagem" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </div>
+        <div class="col-12 m-auto text-center mt-3">
+            <div class="text-bold text-caption text-black-60">
+                Lenner Augusto
+            </div>
+        </div>
+    </div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <MatIcons Icon="@MatIcon.home" />  <span class="oi" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/" @onclick="()=> SubMenu =! SubMenu">
+                <MatIcons Icon="@MatIcon.people" /> <span class="oi" aria-hidden="true"></span> Clientes <span class="oi" aria-hidden="true"></span> <MatIcons Icon="@MatIcon.arrow_drop_down" />
+            </NavLink>
+            @if (SubMenu)
+            {
+                <NavLink class="expand-menu" href="/clients/list/active">
+                    <span class="oi" aria-hidden="true"></span> <MatIcons Icon="@MatIcon.done_all" /> <span class="oi" aria-hidden="true"></span> Ativos
+                </NavLink>
+                <NavLink class="expand-menu" href="/clients/list/inactive">
+                    <span class="oi" aria-hidden="true"></span> <MatIcons Icon="@MatIcon.close" /> <span class="oi" aria-hidden="true"></span> Inativos
+                </NavLink>
+            }
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/order-of-service">
+                <MatIcons Icon="@MatIcon.directions_car" /> <span class="oi" aria-hidden="true"></span> Ordens de Serviço
+            </NavLink>
+        </div>
+       
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private bool SubMenu;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

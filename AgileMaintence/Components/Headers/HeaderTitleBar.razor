@@ -1,0 +1,85 @@
+﻿@using AgileMaintence.Domain.Constants
+@using AgileMaintence.Components.Switches
+
+
+<div class="row mx-0 mt-4 mt-md-0">
+    <div class='@(HiddenButton && !ShowSwitch ? "col-12" : "col-6") px-0 m-auto ms-0'>
+        <h1 class="text-4xl text-black-60 text-bold">@Text</h1>
+    </div>
+    @if (!HiddenButton || ButtonHeader != null)
+    {
+        <div class="col-12 col-md-6 m-auto px-0 text-center text-md-end my-3 my-md-auto justify-content-end d-flex">
+            @if (ButtonHeader != null)
+            {
+                @ButtonHeader
+            }
+            else
+            {
+                <button @onclick=OnClickBtn
+                        class="text-uppercase rounded-pill border-0 py-2 px-3 text-caption d-flex"
+                        style="color: @ButtonColor; background-color: #4688f9;"
+                        disabled="@DisabledTbn">
+                    @if (!HiddenIcon)
+                    {
+                        <span class="align-text-top">
+                            <MatIcons Icon="@MatIcon.add" FontSize="18" />
+                        </span>
+                    }
+                    <span class="d-none d-sm-inline-block ms-2" style="font-weight: @ButtonFontWeight">@TextButton</span>
+                </button>
+            }
+        </div>
+    }
+    @if (ShowSwitch)
+    {
+        <div class="col-12 col-md-6 m-auto px-0 text-center text-md-end my-3 my-md-auto">
+            <div class="float-end">
+                <Switch OnChangeChecked=@((check) => ChangeChecked(check))
+                        Label="Pausar / Ativar"
+                        IsDefaultChecked />
+            </div>
+        </div>
+    }
+    <hr class="w-100 mt-2 @CssClassLine" />
+</div>
+
+
+@code {
+    [Parameter]
+    public string Text { get; set; }
+    [Parameter]
+    public bool HiddenButton { get; set; }
+    [Parameter]
+    public bool ShowSwitch { get; set; }
+    [Parameter]
+    public string TextButton { get; set; }
+    [Parameter]
+    public bool HiddenIcon { get; set; }
+    [Parameter]
+    public bool IsOutlinedButton { get; set; }
+    [Parameter]
+    public string ButtonFontWeight { get; set; } = "600";
+    [Parameter]
+    public string ButtonColor { get; set; } = "white";
+    [Parameter]
+    public string ButtonBgColor { get; set; } = "#0059FF";
+    [Parameter]
+    public bool DisabledTbn { get; set; }
+    [Parameter]
+    public EventCallback Action { get; set; }
+    [Parameter]
+    public EventCallback<bool> OnChangeChecked { get; set; }
+    [Parameter]
+    public string CssClassLine { get; set; }
+    [Parameter]
+    public RenderFragment ButtonHeader { get; set; }
+
+    public async Task ChangeChecked(bool val)
+    {
+        await OnChangeChecked.InvokeAsync(val);
+    }
+    public async Task OnClickBtn()
+    {
+        await Action.InvokeAsync();
+    }
+}
