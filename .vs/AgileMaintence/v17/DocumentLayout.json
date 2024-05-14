@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\wwwroot\\css\\cardhome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\wwwroot\\css\\cardhome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\components\\cards\\cardhome.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\components\\cards\\cardhome.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\wwwroot\\css\\table.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\wwwroot\\css\\table.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,6 +83,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "table.css",
+              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\table.css",
+              "RelativeDocumentMoniker": "AgileMaintence\\wwwroot\\css\\table.css",
+              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\table.css",
+              "RelativeToolTip": "AgileMaintence\\wwwroot\\css\\table.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-14T02:11:35.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cardHome.css",
+              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\cardHome.css",
+              "RelativeDocumentMoniker": "AgileMaintence\\wwwroot\\css\\cardHome.css",
+              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\cardHome.css",
+              "RelativeToolTip": "AgileMaintence\\wwwroot\\css\\cardHome.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-14T01:55:52.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardHome.razor",
+              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Components\\Cards\\CardHome.razor",
+              "RelativeDocumentMoniker": "AgileMaintence\\Components\\Cards\\CardHome.razor",
+              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Components\\Cards\\CardHome.razor",
+              "RelativeToolTip": "AgileMaintence\\Components\\Cards\\CardHome.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T01:54:50.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "AgileMaintence\\Pages\\Index.razor",
+              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Index.razor",
+              "RelativeToolTip": "AgileMaintence\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T01:51:56.977Z",
+              "EditorCaption": ""
             }
           ]
         },

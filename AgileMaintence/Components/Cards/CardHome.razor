@@ -1,0 +1,16 @@
+﻿<div class="card-home-container">
+    <div class="card-home-header">
+        @Header
+    </div>
+    <div class="card-home-body">
+        @Body
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Header { get; set; }
+
+    [Parameter]
+    public string Body { get; set; }
+}

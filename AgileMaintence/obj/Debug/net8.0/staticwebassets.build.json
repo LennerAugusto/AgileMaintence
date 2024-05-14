@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b90CJIEFSXMJHtxH724+qBa5kSSSMFQ8+QO+mh8APd4=",
+  "Hash": "RmChGzNnpScZTHrUnEuu6TMCh9IqV0hQZuBlZja8FF0=",
   "Source": "AgileMaintence",
   "BasePath": "_content/AgileMaintence",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\cardHome.css",
+      "SourceId": "AgileMaintence",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\",
+      "BasePath": "_content/AgileMaintence",
+      "RelativePath": "css/cardHome.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cardHome.css"
     },
     {
       "Identity": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",

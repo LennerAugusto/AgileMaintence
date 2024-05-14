@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\cardHome.css",
+      "PackagePath": "staticwebassets\\css\\cardHome.css"
+    },
+    {
       "Id": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },

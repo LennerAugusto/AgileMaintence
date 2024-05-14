@@ -3,9 +3,9 @@
 }
 
     .agile-table th, .agile-table td {
-        border: 1px solid #a8e8ff;  Adiciona borda a todas as células 
+        border: 1px solid #a8e8ff;  
         text-align: left;
-        padding: 8px;  Espaçamento interno das células 
+        padding: 8px;  
     }
 
     .agile-table th {
