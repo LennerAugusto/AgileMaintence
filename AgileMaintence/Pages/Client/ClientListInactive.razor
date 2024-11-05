@@ -1,6 +1,85 @@
 ﻿@page "/clients/list/inactive"
 
-<h1>Clientes Inativos</h1>
-@{
+@inject HttpClient HttpClient
 
+
+@using AgileMaintence.Domain.DTOs.ClientDTO
+
+@inject NavigationManager _nav
+
+@if (Model != null)
+{
+    <div class="container">
+        <AgileMaintence.Components.Headers.HeaderTitleBar Text="Clientes Inativos" TextButton="Novo Cliente" Action="CreateClient" />
+        <div class="agile-table-container">
+            <table class="agile-table">
+                <thead>
+                    <tr class="agile-table-header">
+                        <th style="width:30%;">ID</th>
+                        <th style="width:20%;">Nome</th>
+                        <th style="width:20%;">CPF</th>
+                        <th style="width:20%;">Telefone</th>
+                        <th style="width:10%;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        if (item.IsActive == false)
+                        {
+                            <tr class="agile-table-bory">
+                                <td style="width:30%;">@item.Id</td>
+                                <td style="width:20%;">@item.Name</td>
+                                <td style="width:20%;">@item.Cpf</td>
+                                <td style="width:20%;">@item.Phone</td>
+                                <td style="width: 10%;">
+                                    <button class="options-button" @onclick="() => EditClient(item.Id)" style="border:none">
+                                        ...
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
 }
+
+
+@code {
+    public List<ClientResponseDTO> Model { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetAllClients();
+
+        base.OnInitialized();
+    }
+
+    public async Task GetAllClients()
+    {
+        try
+        {
+            Model = await HttpClient.GetFromJsonAsync<List<ClientResponseDTO>>("/api/clients/get-all");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao buscar clientes: {ex.Message}");
+        }
+    }
+
+    private async Task CreateClient()
+    {
+        var NewItem = "";
+        _nav.NavigateTo($"/cliente/create");
+    }
+
+    private async Task EditClient(Guid ClientId)
+    {
+        _nav.NavigateTo(($"/cliente/create/{ClientId}"));
+    }
+}
+
+
+

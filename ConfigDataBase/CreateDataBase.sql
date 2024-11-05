@@ -1,67 +1,99 @@
+/*INSERT CLIENTS*/
 
-USE AgileMaintenceDB;
-CREATE TABLE Client(
- Id CHAR(36) PRIMARY KEY,
- Name  VARCHAR(255),
- Cpf CHAR(15),
- Phone  CHAR(15),
- IsActive BOOL
-);
+use agilemaintencedb;
+INSERT INTO Clients(Id, Name, Cpf, Phone, IsActive) VALUES 
+('d199eb04-06ac-4382-8c8e-de707a76f61b', 'Ana Beatriz Silva', '049.123.456-78', '(11) 91234-5678', 1),
+('c73266db-6c23-4e9f-8de5-dc2937d716af', 'Carlos Eduardo Santos', '123.456.789-10', '(21) 98765-4321', 1),
+('214a9d0d-6e59-4fea-8536-6b92674b9be9', 'Fernanda Costa', '321.654.987-00', '(31) 99876-5432', 1),
+('7e5b2f8a-18be-41c9-9833-f88a8e697bc5', 'Roberto Oliveira', '456.789.123-45', '(41) 91919-1919', 1),
+('29c99daa-6e23-4f4b-a591-962f6002df1a', 'Mariana Almeida', '789.456.123-56', '(51) 93030-3030', 1),
+('96d5fe00-ffbe-40dc-86d8-74b1d498c682', 'Lucas Pereira', '012.345.678-91', '(61) 92020-2020', 1),
+('ee6968c6-44e9-42c1-ba25-61077514cdb0', 'Juliana Martins', '123.456.789-12', '(71) 90505-0505', 1),
+('7e44e281-cb99-4e71-9841-e8721c721c67', 'Pedro Souza', '234.567.890-23', '(81) 91234-5678', 1),
+('4cc145c2-35e7-455f-894e-dd1e99c63b59', 'Tatiane Lima', '345.678.901-34', '(91) 93030-3030', 1),
+('cb8d50f6-6b0d-48e5-b346-2f1e294de63c', 'Eduardo Silva', '456.789.012-45', '(11) 94040-4040', 1),
+('085d0e23-ed4a-4e39-b7c3-58d5e58e9c65', 'Camila Costa', '567.890.123-56', '(21) 93030-3030', 1),
+('2bdeeb8a-b521-415c-815c-d85fb7989a86', 'Ricardo Santos', '678.901.234-67', '(31) 91234-5678', 1),
+('6587e69c-76de-4d7f-8824-69d882240799', 'Amanda Oliveira', '789.012.345-78', '(41) 90505-0505', 1),
+('3c4055a6-dc35-4642-a260-b368e444e5f5', 'Felipe Almeida', '890.123.456-89', '(51) 93030-3030', 1),
+('6f55a478-c465-4238-bfe2-c08bf9dcebd0', 'Isabela Martins', '901.234.567-90', '(61) 94040-4040', 1),
+('45c1b2fe-655d-4b7d-9ec9-48e74e86dacb', 'Gabriel Pereira', '012.345.678-91', '(71) 92020-2020', 1),
+('f3fac0b3-7c59-4e6b-9d53-695f97403be6', 'Larissa Souza', '123.456.789-01', '(81) 90505-0505', 1),
+('88a4a2f1-e2a7-42eb-bda9-c6e41c12e75a', 'Vinícius Lima', '234.567.890-12', '(91) 91234-5678', 1),
+('9fe0a389-0842-495b-bd95-e2b50f137216', 'Letícia Costa', '345.678.901-23', '(11) 93030-3030', 1),
+('e7dabda5-1749-461b-88a6-9544739d705c', 'Bruno Silva', '456.789.012-34', '(21) 94040-4040', 1),
+('8c5f9420-66a0-4473-ad69-5067d48380c6', 'Carla Almeida', '567.890.123-45', '(31) 92020-2020', 1),
+('3629784d-a1d8-4d59-88f8-9637d2fa3c66', 'João Oliveira', '678.901.234-56', '(41) 91234-5678', 1),
+('cc70afe4-a9fa-4dfa-9498-8a771ff6cbf6', 'Camila Costa', '789.012.345-67', '(51) 93030-3030', 1),
+('f00c2f0f-8123-45ca-a5bf-7154c3593985', 'Rodrigo Santos', '890.123.456-78', '(61) 90505-0505', 1),
+('c7ea0abb-acb3-4053-8032-8ab5938a0776', 'Aline Almeida', '901.234.567-89', '(71) 93030-3030', 1),
+('0fc8c3aa-8fd1-4b0a-9316-763baf710906', 'Gustavo Pereira', '012.345.678-90', '(81) 91234-5678', 1),
+('d0f93e81-c92d-4ea0-bcd9-e1f9a39b61d0', 'Fernanda Souza', '123.456.789-01', '(91) 94040-4040', 1),
+('1a881163-4974-4472-a45a-13bfd53a7e82', 'Ricardo Silva', '234.567.890-12', '(11) 90505-0505', 1),
+('65a98766-a867-4efc-81c6-d56abc4bc2a8', 'Patrícia Costa', '345.678.901-23', '(21) 92020-2020', 1),
+('9bb73edf-8e0a-4744-9e0f-536fc84bf984', 'Júlio Almeida', '456.789.012-34', '(31) 93030-3030', 1),
+('aa743b11-5309-42be-9cdb-17c691d0273b', 'Gabriela Pereira', '567.890.123-45', '(41) 94040-4040', 1),
+('d2bd1ec7-5575-48f9-9ed4-5cfe110e10b8', 'Marcos Souza', '678.901.234-56', '(51) 90505-0505', 1),
+('23bcb689-bf45-432a-a88a-882cff8765a3', 'Ana Paula Silva', '789.012.345-67', '(61) 93030-3030', 1),
+('bff9aa2a-72c2-4303-aa31-1a584c2a743b', 'Felipe Costa', '890.123.456-78', '(71) 94040-4040', 1),
+('cc77b9c3-22bc-4453-9d3d-453de2df0523', 'Vanessa Almeida', '901.234.567-89', '(81) 91234-5678', 1),
+('e3676550-7784-46c2-8301-fbdeadf35b6f', 'Rafael Pereira', '012.345.678-90', '(91) 90505-0505', 1),
+('58b5c4ab-7294-4e3b-a99c-ab0a3abe20a2', 'Caroline Souza', '123.456.789-01', '(11) 93030-3030', 1),
+('97735cef-d846-4d9b-abde-dcb81f355e00', 'Gabriel Costa', '234.567.890-12', '(21) 94040-4040', 1),
+('2e7bacd5-34f2-4eb6-81ab-1b307aa343bb', 'Beatriz Almeida', '345.678.901-23', '(31) 90505-0505', 1),
+('8027168c-767d-4979-bed3-d52eea966889', 'Lucas Souza', '456.789.012-34', '(41) 93030-3030', 1),
+('708b4ca9-00d5-4494-b946-e4c2868dc26a', 'Mariana Pereira', '567.890.123-45', '(51) 94040-4040', 1),
+('2cf4de57-b325-4818-81ed-cea968892c20', 'Eduardo Costa', '678.901.234-56', '(61) 90505-0505', 1),
+('766df153-0d4a-4724-8510-0a9ef4527d10', 'Letícia Almeida', '789.012.345-67', '(71) 93030-3030', 1),
+('a05922ce-fd81-4aa7-a256-544ea0911327', 'Pedro Santos', '890.123.456-78', '(81) 94040-4040', 1),
+('3d12d021-12c4-458e-a593-a56196085c2d', 'Juliana Costa', '901.234.567-89', '(91) 91234-5678', 1),
+('c36b67c8-aa00-4769-991d-66567f3a2412', 'Vinícius Almeida', '012.345.678-90', '(11) 90505-0505', 1),
+('4772a68f-718a-499a-bb53-47b0369fcf27', 'Rafaela Souza', '123.456.789-01', '(21) 93030-3030', 1),
+('d99a540d-2b66-494b-a867-5a0df51338c5', 'Fernando Pereira', '234.567.890-12', '(31) 94040-4040', 1),
+('79d869fa-6b31-470b-851c-bce61ad5293a', 'Isabella Almeida', '345.678.901-23', '(41) 91234-5678', 1),
+('a5b919e3-8473-4e8d-87b0-065e38eb5e40', 'Júlio Costa', '456.789.012-34', '(51) 93030-3030', 1),
+('aefbbc6a-58bc-41ff-aab8-8bc5ceb81bc9', 'Carla Pereira', '567.890.123-45', '(61) 94040-4040', 1),
+('a683975b-5ccb-4851-91b8-8c5c20ddae3c', 'Marcos Almeida', '678.901.234-56', '(71) 90505-0505', 1),
+('30b963f1-ec81-478c-8ea2-1dc1813c6968', 'Gabriela Souza', '789.012.345-67', '(81) 93030-3030', 1),
+('bbaacc07-9d2e-4821-bd1f-1dffc86a457a', 'Felipe Costa', '890.123.456-78', '(91) 94040-4040', 1),
+('7a213c17-d224-463b-a278-67be0fe94ed8', 'Amanda Pereira', '901.234.567-89', '(11) 91234-5678', 1),
+('8e27cbf0-5753-495c-9e5d-d7d063eb2853', 'Ricardo Costa', '012.345.678-90', '(21) 93030-3030', 1),
+('85feabf5-1a5f-490a-bfeb-955e8f2c6ad4', 'Patrícia Souza', '123.456.789-01', '(31) 94040-4040', 1),
+('6bd62454-73af-4fd5-88f9-556c2dbe3931', 'Lucas Almeida', '234.567.890-12', '(41) 91234-5678', 1),
+('71948c80-360f-4507-9ea5-7adf82ac2948', 'Juliana Pereira', '345.678.901-23', '(51) 93030-3030', 1),
+('24e7c6d8-3e89-4fa0-8c6b-23efc0691eed', 'Eduardo Costa', '456.789.012-34', '(61) 94040-4040', 1),
+('24e7c6d8-3e89-4fa0-8c6b-23efc0691eed', 'Caroline Almeida', '567.890.123-45', '(71) 90505-0505', 1),
+('004b6641-3d05-498f-8309-1a68e88fbaf7', 'Gabriel Souza', '678.901.234-56', '(81) 93030-3030', 1),
+('606ce147-4329-4b9d-927f-69c608af9d5a', 'Letícia Pereira', '789.012.345-67', '(91) 94040-4040', 1),
+('82bb6ecc-cea2-4def-8e92-cb8634c0f2e0', 'Mariana Costa', '890.123.456-78', '(11) 91234-5678', 1),
+('d5deff1c-7b07-48fb-9eec-db512c668691', 'Fernando Souza', '901.234.567-89', '(21) 93030-3030', 1),
+('b7dc6bd4-9891-4bb6-88fe-12d103691a9b', 'Vanessa Almeida', '012.345.678-90', '(31) 94040-4040', 1),
+('9fde6744-25bc-4e8a-b798-b072ddfd2934', 'Rafael Costa', '123.456.789-01', '(41) 90505-0505', 1),
+('530c6c61-b30d-462d-a418-23b822396742', 'Isabela Pereira', '234.567.890-12', '(51) 93030-3030', 1),
+('80396df2-fab2-4308-b924-5aedb83de73e', 'Júlio Souza', '345.678.901-23', '(61) 94040-4040', 1),
+('82176c45-a048-4b7c-84cd-ed476e4f5f35', 'Ricardo Almeida', '012.345.678-90', '(31) 94040-4040', 1);
 
-INSERT INTO Client(Id, Name, Cpf, Phone, IsActive) 
-VALUES ('78a9a8b1-b729-4277-a2ed-e7719c55811e', 'Gustavo Espinoza Filho', '922.631.920-00', '(27) 2114-8607', 1);
 
-INSERT INTO Client (Id, Name, Cpf, Phone, IsActive) 
-VALUES ('ca3af3b8-0066-48ad-9d78-0abae6399ad2', 'Valentin Jack Bezerra', '929.794.650-03', '(82) 3233-7626', 1);
-
-INSERT INTO Client (Id, Name, Cpf, Phone, IsActive) 
-VALUES ('18b50315-1abb-404d-967b-164ea7309c67', 'Bóris Inácio Cortês Jr.', '144.505.870-73', '(69) 2865-2195', 1);
-
-INSERT INTO Client (Id, Name, Cpf, Phone, IsActive) 
-VALUES ('827c2cad-34b3-4ab1-8b70-6435c5327a11', 'Ângela Karina Casanova de Cordeiro', '382.687.550-83', '(82) 2855-9109', 1);
-
-INSERT INTO Client (Id, Name, Cpf, Phone, IsActive) 
-VALUES ('f77df879-eda9-4efc-a082-1244474d22e1', 'Raquel Terezinha Bonilha', '117.554.210-52', '(69) 2764-4889', 1);
-
-INSERT INTO Client (Id, Name, Cpf, Phone, IsActive) 
-VALUES ('205fe1ad-33bb-4ece-85b4-88800e7f6514', 'Ali Caldeira de Paiva', '579.310.760-60', '(83) 2731-4678', 1);
-
-INSERT INTO Client(Id, Name, Cpf, Phone, IsActive) 
-VALUES ('902daef2-5ed2-4a85-a7f2-10d36f61a1c2', 'Diego Reginaldo Aguiar Espada', '779.247.610-39', '(84) 2372-5023', 1);
-
-INSERT INTO Client (Id, Name, Cpf, Phone, IsActive) 
-VALUES ('90cd7d32-fc84-4d86-bbcf-276102af7892', 'Fábio Camilo de Bezerra Filho', '243.679.370-03', '(85) 3220-6332', 1);
-
-INSERT INTO Client(Id, Name, Cpf, Phone, IsActive) 
-VALUES ('d7dde2e7-c941-45c7-9c33-bcb0272abb43', 'Diego Zeca de Abreu Filho', '768.965.920-95', '(32) 3659-3721', 1);
-
-INSERT INTO Client(Id, Name, Cpf, Phone, IsActive) 
-VALUES ('c26c4191-d9ba-4c99-ac90-5c60daae2693', 'Quico Aragão de Pacheco', '615.638.160-08', '(96) 3116-5319', 1);
-
-CREATE TABLE OrderOfService(
-	Id CHAR(36) PRIMARY KEY,
-    ClientId char(36)  NOT NULL,
-    NameClient VARCHAR(255),
-    Vehicle CHAR(36),
-     Plate CHAR(7),
-    ProblemSumary CHAR(255),
-    StartDate CHAR(10),
-    EndDate CHAR(10),
-    IsActive BOOL,
-     FOREIGN KEY (ClientId) REFERENCES Client(Id)
-);
-
-INSERT INTO OrderOfService(Id, ClientId, NameClient, Vehicle, Plate, StartDate, EndDate, IsActive) 
-VALUES ('4be29e01-ea92-4d9d-b445-9d929fb73fb3', 'c26c4191-d9ba-4c99-ac90-5c60daae2693', 'Quico Aragão de Pacheco', 'Corsa', 'NEC-2087', '09/05/2024', '09/05/2024', 1);
-
-INSERT INTO OrderOfService(Id, ClientId, NameClient, Vehicle, Plate, StartDate, EndDate, IsActive) 
-VALUES ('ca951622-81d4-44ae-b648-a138881013fd', '90cd7d32-fc84-4d86-bbcf-276102af7892', 'Fábio Camilo de Bezerra Filho', 'Gol', 'IAJ-1212', '09/05/2024', '09/05/2024', 1);
-
-INSERT INTO OrderOfService(Id, ClientId, NameClient, Vehicle, Plate, StartDate, EndDate, IsActive) 
-VALUES ('b9a032a7-b179-4f5e-adde-e3ccf7d19bd7', '78a9a8b1-b729-4277-a2ed-e7719c55811e', 'Gustavo Espinoza Filho', 'Prisma', 'HNI-0859', '09/05/2024', '09/05/2024', 1);
-
-INSERT INTO OrderOfService(Id, ClientId, NameClient, Vehicle, Plate, StartDate, EndDate, IsActive) 
-VALUES ('1ccc5cdc-289b-4ce6-886e-8a0e5c827a79', 'ca3af3b8-0066-48ad-9d78-0abae6399ad2', 'Valentin Jack Bezerra', 'Porshe', 'JZD-37776', '09/05/2024', '09/05/2024', 1);
-
-INSERT INTO OrderOfService(Id, ClientId, NameClient, Vehicle, Plate, StartDate, EndDate, IsActive) 
-VALUES ('200a24c8-80e6-4f54-b913-d1ab68754e08', '18b50315-1abb-404d-967b-164ea7309c67', 'Bóris Inácio Cortês Jr.', 'Buggy', 'MZR-7803', '09/05/2024', '09/05/2024', 1);
+/*INSERT ORDEROFSEREVICES*/
+INSERT INTO OrderServices(Id, ClientId, Vehicle, Plate, Defect, DateInit, DateEnd, IsActive) 
+VALUES 
+('589bf7c6-bc6b-4fd8-95e5-6b363fe42d46', '214a9d0d-6e59-4fea-8536-6b92674b9be9', 'Volkswagen Gol', 'DEF-5678', 'Problema na suspensão', '2024-08-02 10:00:00', '2024-08-06 16:00:00', 1),
+('e365cfe0-efe8-4ab2-987e-5998443a8edc', '214a9d0d-6e59-4fea-8536-6b92674b9be9', 'Chevrolet Onix', 'GHI-6789', 'Falha no sistema elétrico', '2024-08-03 11:00:00', '2024-08-07 15:00:00', 1),
+('cf05bd3a-1bd5-4625-baa6-2608ca52afd2', '7e5b2f8a-18be-41c9-9833-f88a8e697bc5', 'Hyundai HB20', 'JKL-7890', 'Vazamento de óleo', '2024-08-04 12:00:00', '2024-08-08 14:00:00', 1)('4bb77188-8ea2-4f94-8af0-4f2c8318319e', 'd199eb04-06ac-4382-8c8e-de707a76f61b', 'Ford Fiesta', 'MNO-8901', 'Problema na direção', '2024-08-05 13:00:00', '2024-08-09 13:00:00', 1),
+('6ddacbb7-f7a2-4fa9-8d52-7e2b68ce088e', 'c73266db-6c23-4e9f-8de5-dc2937d716af', 'Renault Sandero', 'PQR-9012', 'Problema no ar-condicionado', '2024-08-06 14:00:00', '2024-08-10 12:00:00', 1),
+('001b6f1a-62d7-40bc-a6b7-575164bf94d7', '214a9d0d-6e59-4fea-8536-6b92674b9be9', 'Toyota Corolla', 'STU-0123', 'Problema na transmissão', '2024-08-07 15:00:00', '2024-08-11 11:00:00', 1),
+('b524e039-6593-4abc-b2eb-e2951ca5e5bf', 'ee6968c6-44e9-42c1-ba25-61077514cdb0', 'Nissan Sentra', 'VWX-1234', 'Problema no sistema de freios', '2024-08-08 16:00:00', '2024-08-12 10:00:00', 1),
+('193ac674-68d9-4d26-bf82-aece21625602', '65a98766-a867-4efc-81c6-d56abc4bc2a8', 'Honda Civic', 'YZA-2345', 'Problema no escapamento', '2024-08-09 17:00:00', '2024-08-13 09:00:00', 1),
+('96db3002-6695-492c-93f4-59d7db35d834', '79d869fa-6b31-470b-851c-bce61ad5293a', 'Fiat Argo', 'BCD-3456', 'Problema na bateria', '2024-08-10 09:00:00', '2024-08-14 08:00:00', 1),
+('9df0ea60-18b1-434e-bb9f-59f9580822fd', '79d869fa-6b31-470b-851c-bce61ad5293a', 'Peugeot 208', 'EFG-4567', 'Problema no sistema de exaustão', '2024-08-11 10:00:00', '2024-08-15 07:00:00', 1),
+('c793e0b4-e0c5-4b7a-b84b-c86069536eb6', '7a213c17-d224-463b-a278-67be0fe94ed8', 'Kia Seltos', 'HIJ-5678', 'Problema na suspensão traseira', '2024-08-12 11:00:00', '2024-08-16 06:00:00', 1),
+('dd0fb735-8ea4-4bcc-8913-44300d4a6ae6', '24e7c6d8-3e89-4fa0-8c6b-23efc0691eed', 'Jeep Compass', 'KLM-6789', 'Problema na transmissão aut__efmigrationshistoryomática', '2024-08-13 12:00:00', '2024-08-17 05:00:00', 1),
+('984092cd-3c22-4f37-bd83-20b6eea085be', '24e7c6d8-3e89-4fa0-8c6b-23efc0691eed', 'Audi A3', 'NOP-7890', 'Problema no câmbio', '2024-08-14 13:00:00', '2024-08-18 04:00:00', 1),
+('82f210ee-12ee-41c2-9d6d-d81c3bcfc1e1', '004b6641-3d05-498f-8309-1a68e88fbaf7', 'BMW X1', 'QRS-8901', 'Problema na direção hidráulica', '2024-08-15 14:00:00', '2024-08-19 03:00:00', 1),
+('540e8be3-2ec7-4ee4-b450-c04399b87926', '004b6641-3d05-498f-8309-1a68e88fbaf7', 'Mercedes-Benz C-Class', 'TUV-9012', 'Problema no arrefecimento', '2024-08-16 15:00:00', '2024-08-20 02:00:00', 1),
+('a9c1dd6b-8047-424e-a71e-afa7795ad2eb', '004b6641-3d05-498f-8309-1a68e88fbaf7', 'Subaru XV', 'WXY-0123', 'Barulho na suspensão', '2024-08-17 16:00:00', '2024-08-21 01:00:00', 1),
+('f554dbd9-5ddf-4301-8986-8830d221e7ab', '82bb6ecc-cea2-4def-8e92-cb8634c0f2e0', 'Land Rover Discovery', 'YZA-1234', 'Problema no turbo', '2024-08-18 17:00:00', '2024-08-22 00:00:00', 1),
+('73ba64f3-f8d1-4983-b37a-6255afa9e9f0', 'd5deff1c-7b07-48fb-9eec-db512c668691', 'Porsche Macan', 'BCD-2345', 'Problema na ignição', '2024-08-19 18:00:00', '2024-08-23 23:00:00', 1),
+('f1eef183-9f89-4bc8-bbfd-16c18ce0d446', '9fde6744-25bc-4e8a-b798-b072ddfd2934', 'Volvo XC60', 'EFG-3456', 'Problema no escapamento', '2024-08-20 19:00:00', '2024-08-24 22:00:00', 1),
+('b057aa61-bd30-4408-8d8e-336a8e3a32d2', '9fde6744-25bc-4e8a-b798-b072ddfd2934', 'Chery Tiggo', 'HIJ-4567', 'Problema no ar-condicionado', '2024-08-21 20:00:00', '2024-08-25 21:00:00', 1),
+('1aff9aaa-ba07-4b72-903b-55b863b109c2', '82176c45-a048-4b7c-84cd-ed476e4f5f35', 'Lexus NX', 'JKL-5678', 'Barulho no motor', '2024-08-22 21:00:00', '2024-08-26 20:00:00', 1);

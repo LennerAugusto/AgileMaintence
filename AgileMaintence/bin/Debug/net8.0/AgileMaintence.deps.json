@@ -69,7 +69,10 @@
           "Microsoft.AspNetCore.Components.Web": "8.0.0"
         },
         "runtime": {
-          "AgileMaintence.Domain.dll": {}
+          "AgileMaintence.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

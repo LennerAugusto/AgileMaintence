@@ -1,7 +1,18 @@
 ﻿@page "/cliente/create"
+@page "/cliente/create/{Id:guid}"
 
-<h3>Página de criação de clientes</h3>
+@if(Id != null)
+{
+    <h3>Página de criação de edição de clientes</h3>
+}
+else
+{
+    <h3>Página de criação de clientes</h3>
+}
+
 
 @code {
+    [Parameter]
+    public Guid Id{ get; set; }
 
 }

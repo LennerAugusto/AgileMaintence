@@ -1,13 +1,37 @@
-﻿.agile-table {
+﻿
+.agile-table {
     width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 16px;
+    overflow: hidden;
 }
 
-    .agile-table th, .agile-table td {
-        border: 1px solid #a8e8ff;  
-        text-align: left;
-        padding: 8px;  
+    .agile-table th {
+        background-color: #50c0ff;
+        color: #000;
     }
 
-    .agile-table th {
-        background-color: #4688f9
+    .agile-table th, .agile-table td {
+        border: 1px solid #a8e8ff;
+        text-align: left;
+        padding: 8px;
+        border-radius: 0;
+    }
+
+
+        .agile-table th:first-child {
+            border-top-left-radius: 16px;
+        }
+
+        .agile-table th:last-child {
+            border-top-right-radius: 16px;
+        }
+
+    .agile-table tr:last-child td:first-child {
+        border-bottom-left-radius: 16px;
+    }
+
+    .agile-table tr:last-child td:last-child {
+        border-bottom-right-radius: 16px;
     }
