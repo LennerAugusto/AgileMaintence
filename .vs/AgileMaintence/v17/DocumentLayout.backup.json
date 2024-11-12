@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\pages\\client\\clientlistinactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\pages\\client\\clientlistinactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\pages\\client\\clientlistactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\pages\\client\\clientlistactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\pages\\client\\clientecreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\pages\\client\\clientecreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|c:\\workspace\\personalprojects\\agilemaintence\\agilemaintence\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A5DFB26-9FB9-4949-95EF-69403480D8E9}|AgileMaintence\\AgileMaintence.csproj|solutionrelative:agilemaintence\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -91,66 +79,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "AgileMaintence\\Pages\\Index.razor",
-              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Index.razor",
-              "RelativeToolTip": "AgileMaintence\\Pages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "AgileMaintence\\Pages\\Login.razor",
+              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Login.razor",
+              "RelativeToolTip": "AgileMaintence\\Pages\\Login.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T23:40:31.655Z",
+              "WhenOpened": "2024-11-07T22:55:56.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClientListInactive.razor",
-              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Client\\ClientListInactive.razor",
-              "RelativeDocumentMoniker": "AgileMaintence\\Pages\\Client\\ClientListInactive.razor",
-              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Client\\ClientListInactive.razor",
-              "RelativeToolTip": "AgileMaintence\\Pages\\Client\\ClientListInactive.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T23:26:21.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientListActive.razor",
-              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Client\\ClientListActive.razor",
-              "RelativeDocumentMoniker": "AgileMaintence\\Pages\\Client\\ClientListActive.razor",
-              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Client\\ClientListActive.razor",
-              "RelativeToolTip": "AgileMaintence\\Pages\\Client\\ClientListActive.razor",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T23:25:43.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClienteCreate.razor",
-              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Client\\ClienteCreate.razor",
-              "RelativeDocumentMoniker": "AgileMaintence\\Pages\\Client\\ClienteCreate.razor",
-              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Client\\ClienteCreate.razor",
-              "RelativeToolTip": "AgileMaintence\\Pages\\Client\\ClienteCreate.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T22:51:58.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "AgileMaintence\\appsettings.Development.json",
-              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\appsettings.Development.json",
-              "RelativeToolTip": "AgileMaintence\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T22:29:02.2Z",
+              "Title": "Login.razor.css",
+              "DocumentMoniker": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Login.razor.css",
+              "RelativeDocumentMoniker": "AgileMaintence\\Pages\\Login.razor.css",
+              "ToolTip": "C:\\Workspace\\PersonalProjects\\AgileMaintence\\AgileMaintence\\Pages\\Login.razor.css",
+              "RelativeToolTip": "AgileMaintence\\Pages\\Login.razor.css",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAwwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-07T22:55:20.18Z",
               "EditorCaption": ""
             }
           ]

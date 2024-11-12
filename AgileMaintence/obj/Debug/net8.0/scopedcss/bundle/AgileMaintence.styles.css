@@ -1,3 +1,108 @@
+/* _content/AgileMaintence/Pages/Login.razor.rz.scp.css */
+:root[b-y5a5igoh98] {
+    --primary-color: #50c0ff;
+    --gradient-bg: linear-gradient(135deg, #50c0ff, #0066cc);
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --input-bg: rgba(255, 255, 255, 0.7);
+    --text-color: #333;
+}
+
+*[b-y5a5igoh98] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body[b-y5a5igoh98], html[b-y5a5igoh98] {
+    height: 100vh;
+    background: var(--gradient-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.login-wrapper[b-y5a5igoh98] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-box[b-y5a5igoh98] {
+    width: 100%;
+    max-width: 380px;
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.login-heading[b-y5a5igoh98] {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.login-description[b-y5a5igoh98] {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.form-field[b-y5a5igoh98] {
+    margin-bottom: 1.5rem;
+}
+
+.input[b-y5a5igoh98] {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    color: #333;
+    background-color: var(--input-bg);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+    .input:focus[b-y5a5igoh98] {
+        outline: none;
+        box-shadow: 0 0 6px var(--primary-color);
+    }
+
+.login-btn[b-y5a5igoh98] {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .login-btn:hover[b-y5a5igoh98] {
+        background-color: #1a8bff;
+    }
+
+.login-footer[b-y5a5igoh98] {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+    .login-footer a[b-y5a5igoh98] {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: bold;
+    }
 /* _content/AgileMaintence/Shared/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-s2n273d96x] {
     background-color: rgba(255, 255, 255, 0.1);

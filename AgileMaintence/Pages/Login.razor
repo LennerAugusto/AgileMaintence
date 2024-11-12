@@ -1,0 +1,41 @@
+﻿@page "/login"
+@inject NavigationManager Navigation
+
+<div class="login-wrapper">
+    <div class="login-box">
+        <h2 class="login-heading">Bem-vindo de Volta!</h2>
+        <p class="login-description">Faça login para acessar sua conta</p>
+
+        <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+            <div class="form-field">
+                <InputText class="input" placeholder="Usuário" @bind-Value="loginModel.Username" />
+            </div>
+
+            <div class="form-field">
+                <InputText class="input" type="password" placeholder="Senha" @bind-Value="loginModel.Password" />
+            </div>
+
+            <button class="login-btn" type="submit">Entrar</button>
+        </EditForm>
+
+        <p class="login-footer">Esqueceu sua senha? <a href="#">Recupere aqui</a></p>
+    </div>
+</div>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+
+    private void HandleLogin()
+    {
+        if (!string.IsNullOrEmpty(loginModel.Username) && !string.IsNullOrEmpty(loginModel.Password))
+        {
+            Navigation.NavigateTo("/home");
+        }
+    }
+
+    public class LoginModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}
